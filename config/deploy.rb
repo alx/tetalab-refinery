@@ -31,3 +31,17 @@ namespace :deploy do
       run "touch #{File.join(current_path,'tmp','restart.txt')}"
     end
 end
+
+namespace :customs do
+  task :symlink, :roles => :app do
+    # Fetch production database
+    run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/config/production.sqlite3"
+    # Fetch old images directories
+    %w(alx avatars binary_hero domiduino fildefeu pg pressbook sack tetalab wikileaks).each |images|
+      run "ln -nfs #{shared_path}/images/#{images} #{release_path}/public/images/#{images}"
+    end
+  end
+end
+
+# -- symlinks
+after "deploy:symlink","customs:symlink"
