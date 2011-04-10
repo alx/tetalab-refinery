@@ -1,0 +1,2377 @@
+  [1m[36mSQL (1.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (9.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (23.8ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (8.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE TABLE "slugs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "sluggable_id" integer, "sequence" integer DEFAULT 1 NOT NULL, "sluggable_type" varchar(40), "scope" varchar(40), "created_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "index_slugs_on_n_s_s_and_s" ON "slugs" ("name", "sluggable_type", "scope", "sequence")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_slugs_on_n_s_s_and_s')
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE INDEX "index_slugs_on_sluggable_id" ON "slugs" ("sluggable_id")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091422')[0m
+Migrating to AddLocaleToSlugs (20110402091423)
+  [1m[35mSQL (0.7ms)[0m  ALTER TABLE "slugs" ADD "locale" varchar(255)
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_sluggable_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_slugs_on_n_s_s_and_s')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_slugs_on_locale" ON "slugs" ("locale")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091423')
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "refinery_settings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "value" text, "destroyable" boolean DEFAULT 't', "created_at" datetime, "updated_at" datetime, "scoping" varchar(255), "restricted" boolean DEFAULT 'f', "callback_proc_as_string" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_refinery_settings_on_name" ON "refinery_settings" ("name")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091424')
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+  [1m[36mSQL (0.7ms)[0m  [1mALTER TABLE "refinery_settings" ADD "form_value_type" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091425')[0m
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "roles_users" ("user_id" integer, "role_id" integer) [0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255)) [0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "user_plugins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar(255), "position" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_user_plugins_on_title" ON "user_plugins" ("name")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_plugins_on_title')[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE UNIQUE INDEX "index_unique_user_plugins" ON "user_plugins" ("user_id", "name")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_users_on_id" ON "users" ("id")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091426')
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.6ms)[0m  CREATE INDEX "index_roles_users_on_role_id_and_user_id" ON "roles_users" ("role_id", "user_id")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_role_id_and_user_id')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_roles_users_on_user_id_and_role_id" ON "roles_users" ("user_id", "role_id")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091427')[0m
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+  [1m[35mSQL (0.7ms)[0m  ALTER TABLE "users" ADD "current_sign_in_at" datetime
+  [1m[36mSQL (0.4ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_at" datetime[0m
+  [1m[35mSQL (0.4ms)[0m  ALTER TABLE "users" ADD "current_sign_in_ip" varchar(255)
+  [1m[36mSQL (0.4ms)[0m  [1mALTER TABLE "users" ADD "last_sign_in_ip" varchar(255)[0m
+  [1m[35mSQL (0.4ms)[0m  ALTER TABLE "users" ADD "sign_in_count" integer
+  [1m[36mSQL (0.4ms)[0m  [1mALTER TABLE "users" ADD "remember_token" varchar(255)[0m
+  [1m[35mSQL (0.4ms)[0m  ALTER TABLE "users" ADD "reset_password_token" varchar(255)
+  [1m[36mSQL (0.9ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255)) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_users_on_id" ON "altered_users" ("id")[0m
+  [1m[35mSQL (0.5ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255)) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_users_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_users_on_id" ON "users" ("id")[0m
+  [1m[35mSQL (0.4ms)[0m  DROP TABLE "altered_users"
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255)) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_users_on_id" ON "altered_users" ("id")[0m
+  [1m[35mSQL (0.4ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255)) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_users_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_users_on_id" ON "users" ("id")[0m
+  [1m[35mSQL (0.3ms)[0m  DROP TABLE "altered_users"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091428')
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+  [1m[36mSQL (0.7ms)[0m  [1mALTER TABLE "users" ADD "remember_created_at" datetime[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091429')[0m
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+  [1m[35mSQL (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255), "remember_created_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_users_on_id" ON "altered_users" ("id")
+  [1m[36mSQL (0.5ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255) NOT NULL, "email" varchar(255) NOT NULL, "encrypted_password" varchar(255) NOT NULL, "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime, "perishable_token" varchar(255), "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "sign_in_count" integer, "remember_token" varchar(255), "reset_password_token" varchar(255), "remember_created_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_users_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_users_on_id" ON "users" ("id")
+  [1m[36mSQL (0.3ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091430')
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "image_mime_type" varchar(255), "image_name" varchar(255), "image_size" integer, "image_width" integer, "image_height" integer, "created_at" datetime, "updated_at" datetime, "image_uid" varchar(255), "image_ext" varchar(255)) 
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091431')
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m  CREATE TABLE "page_parts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "title" varchar(255), "body" text, "position" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_parts")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_page_parts_on_id" ON "page_parts" ("id")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_parts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_parts_on_page_id" ON "page_parts" ("page_id")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_keywords" varchar(255), "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_depth" ON "pages" ("depth")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.7ms)[0m  CREATE INDEX "index_pages_on_id" ON "pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_lft" ON "pages" ("lft")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091432')[0m
+Migrating to TranslatePagePlugin (20110402091433)
+  [1m[35mSQL (0.6ms)[0m  CREATE TABLE "page_part_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_part_id" integer, "locale" varchar(255), "body" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mPagePart Load (0.2ms)[0m  [1mSELECT "page_parts".* FROM "page_parts"[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_part_translations_on_page_part_id" ON "page_part_translations" ("page_part_id")[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "browser_title" varchar(255), "meta_keywords" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_translations_on_page_id" ON "page_translations" ("page_id")[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE "pages"."link_url" = '/'[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mPage::Translation Load (0.2ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.2ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.2ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'use_marketable_urls' AND "refinery_settings"."scoping" = 'pages' LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "refinery_settings" ("callback_proc_as_string", "updated_at", "scoping", "restricted", "form_value_type", "name", "created_at", "value", "destroyable") VALUES (NULL, '2011-04-02 09:14:30.437592', 'pages', 'f', 'text_area', 'use_marketable_urls', '2011-04-02 09:14:30.437592', '--- "true"
+', 't')[0m
+  [1m[35mRefinerySetting Load (0.4ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE ("refinery_settings"."id" >= 0) ORDER BY refinery_settings.id ASC LIMIT 500
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT MAX("pages"."rgt") AS max_id FROM "pages"
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "pages" ("meta_keywords", "depth", "created_at", "skip_to_first_child", "parent_id", "custom_title_type", "show_in_menu", "lft", "draft", "meta_description", "title", "position", "custom_title", "updated_at", "menu_match", "link_url", "rgt", "path", "deletable", "browser_title") VALUES (NULL, NULL, '2011-04-02 09:14:30.487749', 'f', NULL, 'none', 't', 1, 'f', NULL, 'Home', 0, NULL, '2011-04-02 09:14:30.487749', '^/$', '/', 2, NULL, 'f', NULL)[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'home' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "slugs" WHERE "slugs"."name" = 'home' AND "slugs"."scope" IS NULL AND "slugs"."sluggable_type" = 'Page'[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "slugs" ("locale", "name", "sluggable_type", "scope", "sluggable_id", "created_at", "sequence") VALUES ('en', 'home', 'Page', NULL, 1, '2011-04-02 09:14:30.504476', 1)
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE ("pages"."id" >= 0) ORDER BY pages.id ASC LIMIT 500[0m
+  [1m[35mPage::Translation Load (0.2ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mPage::Translation Load (0.2ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPage::Translation Load (0.2ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPagePart Load (0.3ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC[0m
+  [1m[35mPagePart Load (0.3ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_translations" ("browser_title", "meta_keywords", "updated_at", "page_id", "title", "meta_description", "locale", "custom_title", "created_at") VALUES (NULL, NULL, '2011-04-02 09:14:30.550870', 1, 'Home', NULL, 'en', NULL, '2011-04-02 09:14:30.550870')
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 1) ORDER BY "lft"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "page_parts" ("updated_at", "created_at", "position", "page_id", "title", "body") VALUES ('2011-04-02 09:14:30.714128', '2011-04-02 09:14:30.714128', 0, 1, 'Body', '<p>Welcome to our site. This is just a place holder page while we gather our content.</p>')[0m
+  [1m[35mPagePart::Translation Load (0.2ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 1) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_part_translations" ("updated_at", "page_part_id", "created_at", "body", "locale") VALUES ('2011-04-02 09:14:30.727481', 1, '2011-04-02 09:14:30.727481', '<p>Welcome to our site. This is just a place holder page while we gather our content.</p>', 'en')[0m
+  [1m[35mPagePart::Translation Load (0.3ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_parts" ("updated_at", "created_at", "position", "page_id", "title", "body") VALUES ('2011-04-02 09:14:30.737076', '2011-04-02 09:14:30.737076', 1, 1, 'Side Body', '<p>This is another block of content over here.</p>')[0m
+  [1m[35mPagePart::Translation Load (0.2ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 2) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_part_translations" ("updated_at", "page_part_id", "created_at", "body", "locale") VALUES ('2011-04-02 09:14:30.742814', 2, '2011-04-02 09:14:30.742814', '<p>This is another block of content over here.</p>', 'en')[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT MAX("pages"."rgt") AS max_id FROM "pages"
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "pages" ("meta_keywords", "depth", "created_at", "skip_to_first_child", "parent_id", "custom_title_type", "show_in_menu", "lft", "draft", "meta_description", "title", "position", "custom_title", "updated_at", "menu_match", "link_url", "rgt", "path", "deletable", "browser_title") VALUES (NULL, NULL, '2011-04-02 09:14:30.760110', 'f', 1, 'none', 'f', 3, 'f', NULL, 'Page not found', 0, NULL, '2011-04-02 09:14:30.760110', '^/404$', NULL, 4, NULL, 'f', NULL)[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSlug Load (0.3ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'page-not-found' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "slugs" WHERE "slugs"."name" = 'page-not-found' AND "slugs"."scope" IS NULL AND "slugs"."sluggable_type" = 'Page'
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "slugs" ("locale", "name", "sluggable_type", "scope", "sluggable_id", "created_at", "sequence") VALUES ('en', 'page-not-found', 'Page', NULL, 2, '2011-04-02 09:14:30.769562', 1)[0m
+  [1m[35mPagePart Load (0.3ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY position ASC
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_translations" ("browser_title", "meta_keywords", "updated_at", "page_id", "title", "meta_description", "locale", "custom_title", "created_at") VALUES (NULL, NULL, '2011-04-02 09:14:30.800343', 2, 'Page not found', NULL, 'en', NULL, '2011-04-02 09:14:30.800343')
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = 1 ORDER BY "lft" LIMIT 1[0m
+  [1m[35mPage Load (0.2ms)[0m  SELECT "lft", "rgt", "parent_id" FROM "pages" WHERE "pages"."id" = 2 LIMIT 1
+  [1m[36mPage::Translation Load (0.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPage::Translation Load (0.6ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "pages" SET "lft" = CASE WHEN "lft" BETWEEN 2 AND 2 THEN "lft" + 4 - 2 WHEN "lft" BETWEEN 3 AND 4 THEN "lft" + 2 - 3 ELSE "lft" END, "rgt" = CASE WHEN "rgt" BETWEEN 2 AND 2 THEN "rgt" + 4 - 2 WHEN "rgt" BETWEEN 3 AND 4 THEN "rgt" + 2 - 3 ELSE "rgt" END, "parent_id" = CASE WHEN id = 2 THEN 1 ELSE "parent_id" END[0m
+  [1m[35mPage Load (0.2ms)[0m  SELECT "lft", "rgt", "parent_id" FROM "pages" WHERE "pages"."id" = 1 LIMIT 1
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "lft", "rgt", "parent_id" FROM "pages" WHERE "pages"."id" = 2 LIMIT 1[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE ("pages"."lft" <= 2 AND "pages"."rgt" >= 3) AND ("pages".id != 2)[0m
+  [1m[35mSlug Load (0.3ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC LIMIT 1
+  [1m[36mPage Load (0.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = 2 LIMIT 1[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage::Translation Load (0.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPagePart Load (0.3ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY position ASC[0m
+  [1m[35mPagePart Load (0.3ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 2) ORDER BY position ASC
+  [1m[36mAREL (0.2ms)[0m  [1mUPDATE "pages" SET "depth" = 1, "updated_at" = '2011-04-02 09:14:30.899871' WHERE "pages"."id" = 2[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 2) ORDER BY "lft"
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("updated_at", "created_at", "position", "page_id", "title", "body") VALUES ('2011-04-02 09:14:30.913867', '2011-04-02 09:14:30.913867', 0, 2, 'Body', '<h2>Sorry, there was a problem...</h2><p>The page you requested was not found.</p><p><a href=''/''>Return to the home page</a></p>')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 3) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "page_part_id", "created_at", "body", "locale") VALUES ('2011-04-02 09:14:30.934938', 3, '2011-04-02 09:14:30.934938', '<h2>Sorry, there was a problem...</h2><p>The page you requested was not found.</p><p><a href=''/''>Return to the home page</a></p>', 'en')
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT MAX("pages"."rgt") AS max_id FROM "pages"[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "pages" ("meta_keywords", "depth", "created_at", "skip_to_first_child", "parent_id", "custom_title_type", "show_in_menu", "lft", "draft", "meta_description", "title", "position", "custom_title", "updated_at", "menu_match", "link_url", "rgt", "path", "deletable", "browser_title") VALUES (NULL, NULL, '2011-04-02 09:14:30.947669', 'f', NULL, 'none', 't', 5, 'f', NULL, 'About', 1, NULL, '2011-04-02 09:14:30.947669', NULL, NULL, 6, NULL, 't', NULL)
+  [1m[36mSlug Load (0.2ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'about' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "slugs" WHERE "slugs"."name" = 'about' AND "slugs"."scope" IS NULL AND "slugs"."sluggable_type" = 'Page'[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "slugs" ("locale", "name", "sluggable_type", "scope", "sluggable_id", "created_at", "sequence") VALUES ('en', 'about', 'Page', NULL, 3, '2011-04-02 09:14:30.957166', 1)
+  [1m[36mPagePart Load (0.3ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 3) ORDER BY position ASC[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3) LIMIT 1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_translations" ("browser_title", "meta_keywords", "updated_at", "page_id", "title", "meta_description", "locale", "custom_title", "created_at") VALUES (NULL, NULL, '2011-04-02 09:14:30.967767', 3, 'About', NULL, 'en', NULL, '2011-04-02 09:14:30.967767')[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 3) ORDER BY "lft"
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("updated_at", "created_at", "position", "page_id", "title", "body") VALUES ('2011-04-02 09:14:30.980147', '2011-04-02 09:14:30.980147', 0, 3, 'Body', '<p>This is just a standard text page example. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris. Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero hendrerit dapibus.
+
+Integer interdum purus id erat. Duis nec velit vitae dolor mattis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse pellentesque dignissim lacus. Nulla semper euismod arcu. Suspendisse egestas, erat a consectetur dapibus, felis orci cursus eros, et sollicitudin purus urna et metus. Integer eget est sed nunc euismod vestibulum. Integer nulla dui, tristique in, euismod et, interdum imperdiet, enim. Mauris at lectus. Sed egestas tortor nec mi.</p>')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "page_part_id", "created_at", "body", "locale") VALUES ('2011-04-02 09:14:30.985831', 4, '2011-04-02 09:14:30.985831', '<p>This is just a standard text page example. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin metus dolor, hendrerit sit amet, aliquet nec, posuere sed, purus. Nullam et velit iaculis odio sagittis placerat. Duis metus tellus, pellentesque ut, luctus id, egestas a, lorem. Praesent vitae mauris. Aliquam sed nulla. Sed id nunc vitae leo suscipit viverra. Proin at leo ut lacus consequat rhoncus. In hac habitasse platea dictumst. Nunc quis tortor sed libero hendrerit dapibus.
+
+Integer interdum purus id erat. Duis nec velit vitae dolor mattis euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse pellentesque dignissim lacus. Nulla semper euismod arcu. Suspendisse egestas, erat a consectetur dapibus, felis orci cursus eros, et sollicitudin purus urna et metus. Integer eget est sed nunc euismod vestibulum. Integer nulla dui, tristique in, euismod et, interdum imperdiet, enim. Mauris at lectus. Sed egestas tortor nec mi.</p>', 'en')
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("updated_at", "created_at", "position", "page_id", "title", "body") VALUES ('2011-04-02 09:14:30.995063', '2011-04-02 09:14:30.995063', 1, 3, 'Side Body', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nisi a elit. Duis ultricies orci ut arcu. Ut ac nibh. Duis blandit rhoncus magna. Pellentesque semper risus ut magna. Etiam pulvinar tellus eget diam. Morbi blandit. Donec pulvinar mauris at ligula. Sed pellentesque, ipsum id congue molestie, lectus risus egestas pede, ac viverra diam lacus ac urna. Aenean elit.</p>')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "page_part_id", "created_at", "body", "locale") VALUES ('2011-04-02 09:14:31.002126', 5, '2011-04-02 09:14:31.002126', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla nisi a elit. Duis ultricies orci ut arcu. Ut ac nibh. Duis blandit rhoncus magna. Pellentesque semper risus ut magna. Etiam pulvinar tellus eget diam. Morbi blandit. Donec pulvinar mauris at ligula. Sed pellentesque, ipsum id congue molestie, lectus risus egestas pede, ac viverra diam lacus ac urna. Aenean elit.</p>', 'en')
+  [1m[36mAREL (3.8ms)[0m  [1mUPDATE "slugs" SET "locale" = 'en'[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091433')[0m
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091434')[0m
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091435')[0m
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+  [1m[35mSQL (0.9ms)[0m  CREATE TEMPORARY TABLE "altered_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_keywords" varchar(255), "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_rgt" ON "altered_pages" ("rgt")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_parent_id" ON "altered_pages" ("parent_id")[0m
+  [1m[35mSQL (0.4ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_lft" ON "altered_pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_id" ON "altered_pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_depth" ON "altered_pages" ("depth")
+  [1m[36mSQL (0.9ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35mSQL (0.6ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_keywords" varchar(255), "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_depth" ON "pages" ("depth")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_id" ON "pages" ("id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE INDEX "index_pages_on_lft" ON "pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "altered_pages"[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_keywords" varchar(255), "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_rgt" ON "altered_pages" ("rgt")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_parent_id" ON "altered_pages" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_lft" ON "altered_pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_id" ON "altered_pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_depth" ON "altered_pages" ("depth")
+  [1m[36mSQL (0.8ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.4ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_depth" ON "pages" ("depth")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_id" ON "pages" ("id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_lft" ON "pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")
+  [1m[36mSQL (0.5ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")
+  [1m[36mSQL (0.5ms)[0m  [1mDROP TABLE "altered_pages"[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "meta_description" text, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_rgt" ON "altered_pages" ("rgt")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_parent_id" ON "altered_pages" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_lft" ON "altered_pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_id" ON "altered_pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_depth" ON "altered_pages" ("depth")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_depth" ON "pages" ("depth")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_id" ON "pages" ("id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_lft" ON "pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "altered_pages"[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "browser_title" varchar(255), "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "temp_index_altered_pages_on_rgt" ON "altered_pages" ("rgt")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_parent_id" ON "altered_pages" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_lft" ON "altered_pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_id" ON "altered_pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_depth" ON "altered_pages" ("depth")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_depth" ON "pages" ("depth")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_id" ON "pages" ("id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_lft" ON "pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")
+  [1m[36mSQL (0.5ms)[0m  [1mDROP TABLE "altered_pages"[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title" varchar(255), "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_rgt" ON "altered_pages" ("rgt")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_parent_id" ON "altered_pages" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_pages_on_lft" ON "altered_pages" ("lft")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("altered_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_id" ON "altered_pages" ("id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_rgt')[0m
+  [1m[35mSQL (0.2ms)[0m  CREATE INDEX "temp_index_altered_pages_on_depth" ON "altered_pages" ("depth")
+  [1m[36mSQL (0.6ms)[0m  [1mDROP TABLE "pages"[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TABLE "pages" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "position" integer, "path" varchar(255), "created_at" datetime, "updated_at" datetime, "show_in_menu" boolean DEFAULT 't', "link_url" varchar(255), "menu_match" varchar(255), "deletable" boolean DEFAULT 't', "custom_title_type" varchar(255) DEFAULT 'none', "draft" boolean DEFAULT 'f', "skip_to_first_child" boolean DEFAULT 'f', "lft" integer, "rgt" integer, "depth" integer) 
+  [1m[36mSQL (0.5ms)[0m  [1mPRAGMA index_list("altered_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('temp_index_altered_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_depth" ON "pages" ("depth")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_id" ON "pages" ("id")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_pages_on_lft" ON "pages" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_parent_id" ON "pages" ("parent_id")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_pages_on_rgt" ON "pages" ("rgt")
+  [1m[36mSQL (0.5ms)[0m  [1mDROP TABLE "altered_pages"[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110402091436')[0m
+Migrating to CreateSeoMeta (20110402091437)
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "seo_meta" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "seo_meta_id" integer, "seo_meta_type" varchar(255), "browser_title" varchar(255), "meta_keywords" varchar(255), "meta_description" text, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("seo_meta")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_seo_meta_on_id" ON "seo_meta" ("id")
+  [1m[36mSQL (0.4ms)[0m  [1mPRAGMA index_list("seo_meta")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_id')
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE INDEX "index_seo_meta_on_seo_meta_id_and_seo_meta_type" ON "seo_meta" ("seo_meta_id", "seo_meta_type")[0m
+  [1m[35mPage::Translation Load (0.4ms)[0m  SELECT "page_translations".* FROM "page_translations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TEMPORARY TABLE "altered_page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "browser_title" varchar(255), "meta_keywords" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_page_translations_on_page_id" ON "altered_page_translations" ("page_id")[0m
+  [1m[35mSQL (0.5ms)[0m  DROP TABLE "page_translations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "browser_title" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_translations_on_page_id" ON "page_translations" ("page_id")[0m
+  [1m[35mSQL (0.3ms)[0m  DROP TABLE "altered_page_translations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TEMPORARY TABLE "altered_page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "browser_title" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "temp_index_altered_page_translations_on_page_id" ON "altered_page_translations" ("page_id")[0m
+  [1m[35mSQL (0.4ms)[0m  DROP TABLE "page_translations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_translations_on_page_id" ON "page_translations" ("page_id")[0m
+  [1m[35mSQL (0.3ms)[0m  DROP TABLE "altered_page_translations"
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TEMPORARY TABLE "altered_page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "meta_description" text, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE INDEX "temp_index_altered_page_translations_on_page_id" ON "altered_page_translations" ("page_id")[0m
+  [1m[35mSQL (0.9ms)[0m  DROP TABLE "page_translations"
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "page_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "page_id" integer, "locale" varchar(255), "custom_title" varchar(255), "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("altered_page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('temp_index_altered_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_page_translations_on_page_id" ON "page_translations" ("page_id")[0m
+  [1m[35mSQL (0.3ms)[0m  DROP TABLE "altered_page_translations"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPage::Translation Load (0.2ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSeoMetum Load (0.3ms)[0m  SELECT "seo_meta".* FROM "seo_meta" WHERE "seo_meta"."seo_meta_type" = 'Page::Translation' AND "seo_meta"."seo_meta_id" = 1 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "seo_meta" ("meta_description", "updated_at", "created_at", "seo_meta_type", "meta_keywords", "seo_meta_id", "browser_title") VALUES (NULL, '2011-04-02 09:14:31.638485', '2011-04-02 09:14:31.638485', 'Page::Translation', NULL, 1, NULL)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."id" = 2 LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSeoMetum Load (0.2ms)[0m  SELECT "seo_meta".* FROM "seo_meta" WHERE "seo_meta"."seo_meta_type" = 'Page::Translation' AND "seo_meta"."seo_meta_id" = 2 LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "seo_meta" ("meta_description", "updated_at", "created_at", "seo_meta_type", "meta_keywords", "seo_meta_id", "browser_title") VALUES (NULL, '2011-04-02 09:14:31.657017', '2011-04-02 09:14:31.657017', 'Page::Translation', NULL, 2, NULL)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."id" = 3 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSeoMetum Load (0.2ms)[0m  SELECT "seo_meta".* FROM "seo_meta" WHERE "seo_meta"."seo_meta_type" = 'Page::Translation' AND "seo_meta"."seo_meta_id" = 3 LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "seo_meta" ("meta_description", "updated_at", "created_at", "seo_meta_type", "meta_keywords", "seo_meta_id", "browser_title") VALUES (NULL, '2011-04-02 09:14:31.674830', '2011-04-02 09:14:31.674830', 'Page::Translation', NULL, 3, NULL)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091437')
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m  CREATE TABLE "resources" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "file_mime_type" varchar(255), "file_name" varchar(255), "file_size" integer, "created_at" datetime, "updated_at" datetime, "file_uid" varchar(255), "file_ext" varchar(255)) 
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110402091438')
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_part_translations_on_page_part_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_parts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_translations_on_page_id')
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_refinery_settings_on_name')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("resources")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("roles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_user_id_and_role_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_roles_users_on_role_id_and_user_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("seo_meta")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_locale')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_sluggable_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_slugs_on_n_s_s_and_s')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("user_plugins")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_unique_user_plugins')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_plugins_on_title')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
+  [1m[36mSQL (4.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+  [1m[36mSQL (2.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("images")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_part_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_part_translations_on_page_part_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_parts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_page_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_rgt')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("refinery_settings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_refinery_settings_on_name')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("resources")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("roles_users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_roles_users_on_user_id_and_role_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_role_id_and_user_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("seo_meta")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("slugs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_locale')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_sluggable_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_slugs_on_n_s_s_and_s')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_unique_user_plugins')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_plugins_on_title')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_id')
+  [1m[36mSQL (2.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (8.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (5.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (2.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (2.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+Migrating to CreateBlogStructure (20110407150801)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.8ms)[0m  [1mCREATE TABLE "blog_posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "draft" boolean, "published_at" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_posts")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_blog_posts_on_id" ON "blog_posts" ("id")[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE TABLE "blog_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "blog_post_id" integer, "spam" boolean, "name" varchar(255), "email" varchar(255), "body" text, "state" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_comments")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_blog_comments_on_id" ON "blog_comments" ("id")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "blog_categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_categories")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_blog_categories_on_id" ON "blog_categories" ("id")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE TABLE "blog_categories_blog_posts" ("blog_category_id" integer, "blog_post_id" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories_blog_posts")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_blog_categories_blog_posts_on_bc_and_bp" ON "blog_categories_blog_posts" ("blog_category_id", "blog_post_id")
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT MAX("pages"."position") AS max_id FROM "pages" WHERE "pages"."parent_id" IS NULL
+  [1m[36mPage::Translation Load (0.2ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT MAX("pages"."rgt") AS max_id FROM "pages"[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "pages" ("draft", "depth", "skip_to_first_child", "rgt", "path", "show_in_menu", "menu_match", "position", "link_url", "deletable", "custom_title_type", "parent_id", "created_at", "lft", "updated_at") VALUES ('f', NULL, 'f', 8, NULL, 't', '^/blogs?(/|/.+?|)$', 2, '/blog', 'f', 'none', NULL, '2011-04-07 15:09:38.017809', 7, '2011-04-07 15:09:38.017809')
+  [1m[36mSlug Load (0.2ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'blog-page' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT COUNT(*) FROM "slugs" WHERE "slugs"."sluggable_type" = 'Page' AND "slugs"."name" = 'blog-page' AND "slugs"."scope" IS NULL[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "slugs" ("created_at", "scope", "sluggable_type", "sequence", "locale", "name", "sluggable_id") VALUES ('2011-04-07 15:09:38.029185', NULL, 'Page', 1, 'en', 'blog-page', 4)
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 4) LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mPagePart Load (0.3ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 4) ORDER BY position ASC[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 4) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "page_translations" ("updated_at", "created_at", "locale", "custom_title", "page_id", "title") VALUES ('2011-04-07 15:09:38.122554', '2011-04-07 15:09:38.122554', 'en', NULL, 4, 'Blog')[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "seo_meta" ("seo_meta_type", "created_at", "seo_meta_id", "meta_keywords", "updated_at", "meta_description", "browser_title") VALUES ('Page::Translation', '2011-04-07 15:09:38.127730', 4, NULL, '2011-04-07 15:09:38.127730', NULL, NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_translations" ("updated_at", "created_at", "locale", "custom_title", "page_id", "title") VALUES ('2011-04-07 15:09:38.131879', '2011-04-07 15:09:38.131879', 'en', NULL, 4, NULL)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "seo_meta" ("seo_meta_type", "created_at", "seo_meta_id", "meta_keywords", "updated_at", "meta_description", "browser_title") VALUES ('Page::Translation', '2011-04-07 15:09:38.136619', 5, NULL, '2011-04-07 15:09:38.136619', NULL, NULL)
+  [1m[36mPage Load (0.4ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 4) ORDER BY "lft"[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" IS NULL AND "refinery_settings"."name" = 'default_page_parts' LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "refinery_settings" ("scoping", "form_value_type", "callback_proc_as_string", "restricted", "value", "destroyable", "updated_at", "name", "created_at") VALUES (NULL, 'text_area', NULL, 'f', '--- 
+- Body
+- Side Body
+', 't', '2011-04-07 15:09:38.163687', 'default_page_parts', '2011-04-07 15:09:38.163687')
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_parts" ("title", "created_at", "page_id", "updated_at", "body", "position") VALUES ('Body', '2011-04-07 15:09:38.203158', 4, '2011-04-07 15:09:38.203158', NULL, NULL)
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 6) LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "body", "locale", "created_at", "page_part_id") VALUES ('2011-04-07 15:09:38.374985', NULL, 'en', '2011-04-07 15:09:38.374985', 6)
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("title", "created_at", "page_id", "updated_at", "body", "position") VALUES ('Side Body', '2011-04-07 15:09:38.383193', 4, '2011-04-07 15:09:38.383193', NULL, NULL)
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 7) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "body", "locale", "created_at", "page_part_id") VALUES ('2011-04-07 15:09:38.389004', NULL, 'en', '2011-04-07 15:09:38.389004', 7)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110407150801')[0m
+Migrating to AddUserIdToBlogPosts (20110407150802)
+  [1m[35mSQL (19.5ms)[0m  ALTER TABLE "blog_posts" ADD "user_id" integer
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110407150802')[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_categories_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories_blog_posts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_categories_blog_posts_on_bc_and_bp')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_comments")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_comments_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_posts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_posts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_part_translations_on_page_part_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("page_parts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_translations_on_page_id')
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_refinery_settings_on_name')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("resources")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("roles")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('index_roles_users_on_user_id_and_role_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_roles_users_on_role_id_and_user_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("seo_meta")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_locale')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_sluggable_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_slugs_on_n_s_s_and_s')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("user_plugins")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_unique_user_plugins')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_plugins_on_title')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
+  [1m[36mSQL (2.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" IS NULL AND "refinery_settings"."name" = 'dragonfly_secret' LIMIT 1[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "refinery_settings" ("value", "updated_at", "created_at", "form_value_type", "name", "scoping", "destroyable", "restricted", "callback_proc_as_string") VALUES ('--- 979464ede566e728081d70e6bcda9a67d80eabcf3370cf31
+', '2011-04-07 15:10:21.365115', '2011-04-07 15:10:21.365115', 'text_area', 'dragonfly_secret', NULL, 't', 'f', NULL)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.4ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.6ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" = 'refinery' AND "refinery_settings"."name" = 'i18n_translation_default_frontend_locale' LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "refinery_settings" ("value", "updated_at", "created_at", "form_value_type", "name", "scoping", "destroyable", "restricted", "callback_proc_as_string") VALUES ('--- :en
+', '2011-04-07 15:10:21.726116', '2011-04-07 15:10:21.726116', 'text_area', 'i18n_translation_default_frontend_locale', 'refinery', 't', 'f', NULL)
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.5ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" = 'pages' AND "refinery_settings"."name" = 'approximate_ascii' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "refinery_settings" ("value", "updated_at", "created_at", "form_value_type", "name", "scoping", "destroyable", "restricted", "callback_proc_as_string") VALUES ('--- "false"
+', '2011-04-07 15:10:21.746492', '2011-04-07 15:10:21.746492', 'text_area', 'approximate_ascii', 'pages', 't', 'f', NULL)[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.5ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" IS NULL AND "refinery_settings"."name" = 'multi_level_portfolio' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "refinery_settings" ("value", "updated_at", "created_at", "form_value_type", "name", "scoping", "destroyable", "restricted", "callback_proc_as_string") VALUES ('--- "false"
+', '2011-04-07 15:10:22.891080', '2011-04-07 15:10:22.891080', 'text_area', 'multi_level_portfolio', NULL, 't', 'f', '--- "::ActionController::Routing::Routes.reload!"
+')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.6ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[36mSQL (2.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+Migrating to CreateBlogStructure (20110407150801)
+Migrating to AddUserIdToBlogPosts (20110407150802)
+Migrating to CreateStructureForPortfolio (20110407151023)
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "images_portfolio_entries" ("image_id" integer, "portfolio_entry_id" integer, "position" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images_portfolio_entries")[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE INDEX "composite_key_index" ON "images_portfolio_entries" ("image_id", "portfolio_entry_id")
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE TABLE "portfolio_entries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "body" text, "parent_id" integer, "lft" integer, "rgt" integer, "depth" integer, "title_image_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("portfolio_entries")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_portfolio_entries_on_id" ON "portfolio_entries" ("id")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("portfolio_entries")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_id')
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE INDEX "index_portfolio_entries_on_parent_id" ON "portfolio_entries" ("parent_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("portfolio_entries")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_id')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_portfolio_entries_on_lft" ON "portfolio_entries" ("lft")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("portfolio_entries")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_id')[0m
+  [1m[35mSQL (0.4ms)[0m  CREATE INDEX "index_portfolio_entries_on_rgt" ON "portfolio_entries" ("rgt")
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."link_url" = '/portfolio' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT MAX("pages"."position") AS max_id FROM "pages" WHERE "pages"."parent_id" IS NULL[0m
+  [1m[35mPage::Translation Load (0.2ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT MAX("pages"."rgt") AS max_id FROM "pages"
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "pages" ("lft", "menu_match", "updated_at", "draft", "depth", "created_at", "parent_id", "deletable", "custom_title_type", "path", "rgt", "position", "skip_to_first_child", "link_url", "show_in_menu") VALUES (9, '/portfolio(|/.+?)', '2011-04-07 15:10:37.631068', 'f', NULL, '2011-04-07 15:10:37.631068', NULL, 'f', 'none', NULL, 10, 3, 'f', '/portfolio', 't')[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSlug Load (0.2ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'portfolio-page' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT COUNT(*) FROM "slugs" WHERE "slugs"."sluggable_type" = 'Page' AND "slugs"."name" = 'portfolio-page' AND "slugs"."scope" IS NULL
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "slugs" ("sluggable_type", "sequence", "scope", "created_at", "name", "sluggable_id", "locale") VALUES ('Page', 1, NULL, '2011-04-07 15:10:37.641859', 'portfolio-page', 5, 'en')[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 5) LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPagePart Load (0.3ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 5) ORDER BY position ASC
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 5) LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_translations" ("custom_title", "updated_at", "locale", "page_id", "title", "created_at") VALUES (NULL, '2011-04-07 15:10:37.733808', 'en', 5, 'Portfolio', '2011-04-07 15:10:37.733808')
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "seo_meta" ("created_at", "seo_meta_id", "meta_description", "updated_at", "seo_meta_type", "meta_keywords", "browser_title") VALUES ('2011-04-07 15:10:37.739806', 6, NULL, '2011-04-07 15:10:37.739806', 'Page::Translation', NULL, NULL)
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_translations" ("custom_title", "updated_at", "locale", "page_id", "title", "created_at") VALUES (NULL, '2011-04-07 15:10:37.744226', 'en', 5, NULL, '2011-04-07 15:10:37.744226')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "seo_meta" ("created_at", "seo_meta_id", "meta_description", "updated_at", "seo_meta_type", "meta_keywords", "browser_title") VALUES ('2011-04-07 15:10:37.748878', 7, NULL, '2011-04-07 15:10:37.748878', 'Page::Translation', NULL, NULL)[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 5) ORDER BY "lft"
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_parts" ("title", "body", "page_id", "position", "updated_at", "created_at") VALUES ('Body', NULL, 5, NULL, '2011-04-07 15:10:37.777223', '2011-04-07 15:10:37.777223')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 8) LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_part_translations" ("created_at", "page_part_id", "locale", "updated_at", "body") VALUES ('2011-04-07 15:10:37.789480', 8, 'en', '2011-04-07 15:10:37.789480', NULL)
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("title", "body", "page_id", "position", "updated_at", "created_at") VALUES ('Side Body', NULL, 5, NULL, '2011-04-07 15:10:37.799670', '2011-04-07 15:10:37.799670')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 9) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("created_at", "page_part_id", "locale", "updated_at", "body") VALUES ('2011-04-07 15:10:37.805037', 9, 'en', '2011-04-07 15:10:37.805037', NULL)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110407151023')[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_categories_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories_blog_posts")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_blog_categories_blog_posts_on_bc_and_bp')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_comments")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_blog_comments_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_posts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_posts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("images_portfolio_entries")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('composite_key_index')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_part_translations_on_page_part_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("page_parts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_translations_on_page_id')
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("portfolio_entries")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("refinery_settings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_refinery_settings_on_name')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("resources")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("roles_users")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_roles_users_on_user_id_and_role_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_role_id_and_user_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("seo_meta")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("slugs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_locale')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_sluggable_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_slugs_on_n_s_s_and_s')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_unique_user_plugins')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_plugins_on_title')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_id')
+  [1m[36mSQL (2.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (2.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+Migrating to CreateBlogStructure (20110407150801)
+Migrating to AddUserIdToBlogPosts (20110407150802)
+Migrating to CreateStructureForPortfolio (20110407151023)
+Migrating to CreateEvents (20110407151439)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (1.0ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "start_at" datetime, "end_at" datetime, "venue_name" varchar(255), "venue_address" varchar(255), "ticket_price" decimal(8,2), "ticket_link" varchar(255), "description" text, "featured" boolean, "image_id" integer, "position" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("events")
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_events_on_id" ON "events" ("id")[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT MAX("pages"."position") AS max_id FROM "pages" WHERE "pages"."parent_id" IS NULL[0m
+  [1m[35mPage::Translation Load (1.1ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = NULL)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT MAX("pages"."rgt") AS max_id FROM "pages"
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "pages" ("deletable", "position", "path", "skip_to_first_child", "link_url", "custom_title_type", "depth", "created_at", "rgt", "menu_match", "updated_at", "lft", "show_in_menu", "parent_id", "draft") VALUES ('f', 4, NULL, 'f', '/events', 'none', NULL, '2011-04-07 15:14:48.867477', 12, '^/events(\/|\/.+?|)$', '2011-04-07 15:14:48.867477', 11, 't', NULL, 'f')[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSlug Load (0.5ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'events-page' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mSQL (0.5ms)[0m  SELECT COUNT(*) FROM "slugs" WHERE "slugs"."sluggable_type" = 'Page' AND "slugs"."name" = 'events-page' AND "slugs"."scope" IS NULL
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "slugs" ("scope", "sluggable_id", "name", "sluggable_type", "locale", "sequence", "created_at") VALUES (NULL, 6, 'events-page', 'Page', 'en', 1, '2011-04-07 15:14:48.881293')[0m
+  [1m[35mPage::Translation Load (0.3ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 6) LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPagePart Load (0.4ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 6) ORDER BY position ASC
+  [1m[36mPage::Translation Load (0.3ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 6) LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_translations" ("created_at", "custom_title", "title", "locale", "page_id", "updated_at") VALUES ('2011-04-07 15:14:48.969564', NULL, 'Events', 'en', 6, '2011-04-07 15:14:48.969564')
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "seo_meta" ("created_at", "meta_keywords", "seo_meta_id", "meta_description", "updated_at", "browser_title", "seo_meta_type") VALUES ('2011-04-07 15:14:48.975027', NULL, 8, NULL, '2011-04-07 15:14:48.975027', NULL, 'Page::Translation')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "page_translations" ("created_at", "custom_title", "title", "locale", "page_id", "updated_at") VALUES ('2011-04-07 15:14:48.979440', NULL, NULL, 'en', 6, '2011-04-07 15:14:48.979440')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "seo_meta" ("created_at", "meta_keywords", "seo_meta_id", "meta_description", "updated_at", "browser_title", "seo_meta_type") VALUES ('2011-04-07 15:14:48.984135', NULL, 9, NULL, '2011-04-07 15:14:48.984135', NULL, 'Page::Translation')[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 6) ORDER BY "lft"
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.4ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."scoping" IS NULL AND "refinery_settings"."name" = 'default_page_parts' LIMIT 1
+  [1m[36mRefinerySetting Load (0.4ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."id" = 2 LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "refinery_settings" SET "callback_proc_as_string" = NULL, "value" = '--- 
+- Body
+- Side Body
+' WHERE "refinery_settings"."id" = 2
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.7ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "page_parts" ("page_id", "title", "updated_at", "position", "body", "created_at") VALUES (6, 'Body', '2011-04-07 15:14:49.043925', 0, NULL, '2011-04-07 15:14:49.043925')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 10) LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "created_at", "page_part_id", "locale", "body") VALUES ('2011-04-07 15:14:49.216510', '2011-04-07 15:14:49.216510', 10, 'en', NULL)
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = NULL)[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_parts" ("page_id", "title", "updated_at", "position", "body", "created_at") VALUES (6, 'Side Body', '2011-04-07 15:14:49.226525', 1, NULL, '2011-04-07 15:14:49.226525')
+  [1m[36mPagePart::Translation Load (0.2ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 11) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "page_part_translations" ("updated_at", "created_at", "page_part_id", "locale", "body") VALUES ('2011-04-07 15:14:49.231778', '2011-04-07 15:14:49.231778', 11, 'en', NULL)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110407151439')[0m
+Migrating to CreateEventCategories (20110407151440)
+  [1m[35mSQL (0.8ms)[0m  CREATE TABLE "event_categories" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110407151440')[0m
+Migrating to CreateEventCategorizations (20110407151441)
+  [1m[35mSQL (0.7ms)[0m  CREATE TABLE "event_categorizations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "event_id" integer, "event_category_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("event_categorizations")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_event_categorizations_on_event_id" ON "event_categorizations" ("event_id")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("event_categorizations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_event_categorizations_on_event_id')
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE INDEX "index_event_categorizations_on_event_category_id" ON "event_categorizations" ("event_category_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110407151441')
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_categories")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_categories_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_categories_blog_posts")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_blog_categories_blog_posts_on_bc_and_bp')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_comments")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_comments_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_posts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_posts_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("event_categories")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("event_categorizations")[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_info('index_event_categorizations_on_event_category_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_event_categorizations_on_event_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("events")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_events_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("images")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images_portfolio_entries")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('composite_key_index')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_part_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_part_translations_on_page_part_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("page_parts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_page_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.3ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_rgt')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("portfolio_entries")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_rgt')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_lft')
+  [1m[36mSQL (0.4ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_refinery_settings_on_name')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("resources")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("roles")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_user_id_and_role_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_roles_users_on_role_id_and_user_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("seo_meta")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_locale')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_sluggable_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_slugs_on_n_s_s_and_s')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("user_plugins")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_unique_user_plugins')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_plugins_on_title')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
+  [1m[36mSQL (4.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from require at script/rails:6)
+  [1m[36mSQL (2.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (3.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (3.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (3.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (5.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+Migrating to CreateBlogStructure (20110407150801)
+Migrating to AddUserIdToBlogPosts (20110407150802)
+Migrating to CreateStructureForPortfolio (20110407151023)
+Migrating to CreateEvents (20110407151439)
+Migrating to CreateEventCategories (20110407151440)
+Migrating to CreateEventCategorizations (20110407151441)
+Migrating to CreatePageImages (20110407154129)
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE TABLE "image_pages" ("image_id" integer, "page_id" integer, "position" integer) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("image_pages")[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_image_pages_on_image_id" ON "image_pages" ("image_id")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("image_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_image_pages_on_image_id')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE INDEX "index_image_pages_on_page_id" ON "image_pages" ("page_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110407154129')
+Migrating to AddCaptionToImagePages (20110407154130)
+  [1m[36mSQL (0.9ms)[0m  [1mALTER TABLE "image_pages" ADD "caption" text[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110407154130')
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_categories")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_categories_on_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("blog_categories_blog_posts")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_blog_categories_blog_posts_on_bc_and_bp')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_comments")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_comments_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("blog_posts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_blog_posts_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("event_categories")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("event_categorizations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_event_categorizations_on_event_category_id')
+  [1m[36mSQL (3.0ms)[0m  [1mPRAGMA index_info('index_event_categorizations_on_event_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("events")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_events_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("image_pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_image_pages_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_image_pages_on_image_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("images_portfolio_entries")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('composite_key_index')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_part_translations_on_page_part_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("page_parts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_translations")[0m
+  [1m[35mSQL (3.7ms)[0m  PRAGMA index_info('index_page_translations_on_page_id')
+  [1m[36mSQL (0.3ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("portfolio_entries")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_parent_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("refinery_settings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_refinery_settings_on_name')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("resources")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("roles_users")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_roles_users_on_user_id_and_role_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_role_id_and_user_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("seo_meta")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("slugs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_locale')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_sluggable_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_slugs_on_n_s_s_and_s')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_info('index_unique_user_plugins')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_plugins_on_title')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_id')

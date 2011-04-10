@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <%= render :partial => "/shared/head", :locals => {:theme => true} %>
+  <body>
+    <%= render :partial => "/shared/site_bar" %>
+    <div id="header">
+      <div class="inside">
+        <h2>
+          <%= link_to RefinerySetting.find_or_set(:site_name, "Company Name"), root_url %>
+        </h2>
+        <div class="description">
+	<ul class="menu sf-js-enabled">
+	        <li class="current_page_item"><a href="http://www.tetalab.org/" title="Home">Home</a></li>
+	        <li class="page_item"><a href="/blog" title="Blog">Blog</a></li>
+	        <li class="page_item"><a href="http://lists.tetalab.org/listinfo/tetalab" title="Mailing List">Mailing List</a></li>
+	        <li class="page_item"><a href="http://git.tetalab.org" title="Repo Git">Code</a></li>
+	        <li class="page_item"><a href="/pressbook" title="Pressbook">Pressbook</a></li>
+	        <li class="page_item"><a href="http://www.vimeo.com/groups/tetalab/videos" title="Videos">Videos</a></li>
+	        <li class="page_item"><a href="mailto:contact@tetalab.org" title="Contact">Contact</a></li>
+	    </ul>
+        </div>
+      </div>
+    </div>
+    <div id='primary'>
+      <div class='inside clearfix'>
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>
