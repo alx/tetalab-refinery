@@ -63,3 +63,4 @@ Redirect permanent /lionel/2009/09/07/dmxshield/ http://www.tetalab.org/arduino/
 Redirect permanent /arduino/shield/2009/09/07/dmxshield.html http://www.tetalab.org/arduino/shield/blog/dmxshield    
 Redirect permanent /groups/reprap  http://www.tetalab.org
 Redirect permanent /feed/ http://tetalab.org/blog/feed.rss
+Redirect permanent /pressbook.html http://tetalab.org/pressbook
