@@ -35,7 +35,7 @@ end
 namespace :customs do
   task :symlink, :roles => :app do
     # Fetch production database
-    run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/config/production.sqlite3"
+    run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/db/production.sqlite3"
     # Fetch old images directories
     %w(alx avatars binary_hero domiduino fildefeu lionel pg pressbook sack tetalab wikileaks).each do  |images|
       run "ln -nfs #{shared_path}/images/#{images} #{release_path}/public/images/#{images}"
