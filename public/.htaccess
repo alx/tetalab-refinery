@@ -27,7 +27,8 @@ Redirect permanent /lionel/2010/04/12/led-pong-des-nouvelles/ http://www.tetalab
 Redirect permanent /2010/04/12/ledpong-des-nouvelles.html http://www.tetalab.org/blog/ledpong-des-nouvelles 
 Redirect permanent /lionel/2010/03/01/pimp-my-cocktail/ http://www.tetalab.org/blog/pimp-my-cocktail
 Redirect permanent /2010/03/01/pimp-my-cocktail.html  http://www.tetalab.org/blog/pimp-my-cocktail
-Redirect permanent /workshop-eagle-par-lionel/ http://www.tetalab.org/blog/workshop-eagle
+Redirect permanent /workshop-eagle-par-lionel/ http://www.tetalab.org/blog/workshop-eagle-par-eagle
+Redirect permanent /workshop-eagle http://www.tetalab.org/blog/workshop-eagle-par-eagle
 Redirect permanent /2010/02/25/workshop-eagle.html  http://www.tetalab.org/blog/workshop-eagle     
 Redirect permanent /lionel/2010/01/18/arduino-infrared-distance-sensor-basic-test/ http://www.tetalab.org/blog/arduino-infrared-distance-sensor-basic-test
 Redirect permanent /2010/01/18/arduino-infrared-distance-sensor-basic-test.html http://www.tetalab.org/blog/arduino-infrared-distance-sensor-basic-test 
@@ -64,3 +65,5 @@ Redirect permanent /arduino/shield/2009/09/07/dmxshield.html http://www.tetalab.
 Redirect permanent /groups/reprap  http://www.tetalab.org
 Redirect permanent /feed/ http://tetalab.org/blog/feed.rss
 Redirect permanent /pressbook.html http://tetalab.org/pressbook
+Redirect permanent /lionel/ http://tetalab.org/blog/
+
