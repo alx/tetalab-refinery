@@ -16,7 +16,7 @@ set :deploy_via,        :remote_cache
 
 role :web, "www.tetalab.org"
 role :app, "www.tetalab.org"
-role :db, "www.tetalab.org"
+role :db, "www.tetalab.org", :primary => true
 
 # ========================
 #
