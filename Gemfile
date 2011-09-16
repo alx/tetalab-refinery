@@ -34,7 +34,7 @@ gem 'capistrano'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
-gem 'refinerycms',              '= 1.0.0'
+gem 'refinerycms',              '= 1.0.8'
 
 group :development, :test do
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'
@@ -55,7 +55,7 @@ gem 'refinerycms-theming',      '~> 1.0'
 gem 'refinerycms-search',       '~> 0.9.8'
 gem 'refinerycms-blog',         '~> 1.3'
 gem 'refinerycms-page-images',  '~> 1.0'
-gem 'refinerycms-calendar', 	'~>1.0', :git => 'git://github.com/alx/refinerycms-calendar.git'
+gem 'refinerycms-calendar', 	'~>1.0'
 
 # Add i18n support (optional, you can remove this if you really want to).
 gem 'refinerycms-i18n',         '~> 0.9.9.16'
