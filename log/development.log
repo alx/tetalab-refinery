@@ -2526,3 +2526,161 @@ DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3
   [1m[35mSQL (0.6ms)[0m   SELECT name
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Volumes/data/dev/tetalab/refinery/config/environment.rb:5)
+  [1m[36mSQL (1.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.5ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateRefinerycmsCoreSchema (20110402091422)
+Migrating to AddLocaleToSlugs (20110402091423)
+Migrating to CreateRefinerycmsSettingsSchema (20110402091424)
+Migrating to AddValueTypeToRefinerySettings (20110402091425)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110402091426)
+Migrating to AddMissingIndexesToRolesUsers (20110402091427)
+Migrating to ChangeToDeviseUsersTable (20110402091428)
+Migrating to AddRememberCreatedAtToUsers (20110402091429)
+Migrating to RemovePasswordSaltFromUsers (20110402091430)
+Migrating to CreateRefinerycmsImagesSchema (20110402091431)
+Migrating to CreateRefinerycmsPagesSchema (20110402091432)
+Migrating to TranslatePagePlugin (20110402091433)
+Migrating to RemoveCachedSlugFromPages (20110402091434)
+Migrating to TranslateCustomTitleOnPages (20110402091435)
+Migrating to RemoveTranslatedFieldsFromPages (20110402091436)
+Migrating to CreateSeoMeta (20110402091437)
+Migrating to CreateRefinerycmsResourcesSchema (20110402091438)
+Migrating to CreateBlogStructure (20110407150801)
+Migrating to AddUserIdToBlogPosts (20110407150802)
+Migrating to CreateStructureForPortfolio (20110407151023)
+Migrating to CreateEvents (20110407151439)
+Migrating to CreateEventCategories (20110407151440)
+Migrating to CreateEventCategorizations (20110407151441)
+Migrating to CreatePageImages (20110407154129)
+Migrating to AddCaptionToImagePages (20110407154130)
+Migrating to ActsAsTaggableOnMigration (20110601114647)
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) 
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "taggable_type" varchar(255), "tagger_id" integer, "tagger_type" varchar(255), "context" varchar(255), "created_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("taggings")
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("taggings")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [1m[35mSQL (0.3ms)[0m  CREATE INDEX "index_taggings_on_taggable_id_and_taggable_type_and_context" ON "taggings" ("taggable_id", "taggable_type", "context")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110601114647')[0m
+Migrating to CreateSeoMetaForBlog (20110601114648)
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20110601114648')[0m
+Migrating to AddCachedSlugs (20110916214009)
+  [1m[35mSQL (17.8ms)[0m  ALTER TABLE "blog_categories" ADD "cached_slug" varchar(255)
+  [1m[36mSQL (0.2ms)[0m  [1mALTER TABLE "blog_posts" ADD "cached_slug" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110916214009')
+Migrating to AddCustomUrlFieldToBlogPosts (20110916214010)
+  [1m[36mSQL (0.5ms)[0m  [1mALTER TABLE "blog_posts" ADD "custom_url" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110916214010')
+Migrating to AddCustomTeaserFieldToBlogPosts (20110916214011)
+  [1m[36mSQL (0.5ms)[0m  [1mALTER TABLE "blog_posts" ADD "custom_teaser" text[0m
+  [1m[35mSQL (113.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110916214011')
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (1.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_categories_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_categories_blog_posts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_categories_blog_posts_on_bc_and_bp')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_comments")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_comments_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("blog_posts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_blog_posts_on_id')
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("event_categories")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("event_categorizations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_event_categorizations_on_event_category_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_event_categorizations_on_event_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("events")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_events_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("image_pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_image_pages_on_page_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_image_pages_on_image_id')[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("images")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images_portfolio_entries")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('composite_key_index')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_part_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_part_translations_on_page_part_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_parts")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_page_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_translations_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("pages")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_rgt')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_parent_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_lft')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_depth')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("portfolio_entries")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_rgt')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_portfolio_entries_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_portfolio_entries_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_refinery_settings_on_name')
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("resources")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("roles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_user_id_and_role_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_roles_users_on_role_id_and_user_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("seo_meta")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_seo_meta_on_seo_meta_id_and_seo_meta_type')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_seo_meta_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("slugs")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_locale')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_sluggable_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_n_s_s_and_s')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("taggings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type_and_context')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("tags")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("user_plugins")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_unique_user_plugins')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_user_plugins_on_title')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_id')[0m
