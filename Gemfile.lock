@@ -164,8 +164,6 @@ GEM
     refinerycms-settings (1.0.8)
       activerecord (~> 3.0.10)
       refinerycms-base (= 1.0.8)
-    refinerycms-theming (1.0.1)
-      refinerycms-core (>= 0.9.9.15)
     routing-filter (0.2.4)
       actionpack
     seo_meta (1.1.1)
@@ -194,5 +192,4 @@ DEPENDENCIES
   refinerycms-page-images (~> 1.0)
   refinerycms-portfolio (~> 0.9.9)
   refinerycms-search (~> 0.9.8)
-  refinerycms-theming (~> 1.0)
   sqlite3

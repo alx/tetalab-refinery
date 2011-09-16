@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%= render :partial => "/shared/html_tag" %>
   <% site_bar = render(:partial => "/shared/site_bar", :locals => {:head => true}) -%>
-  <%= render :partial => "/shared/head", :locals => {:theme => true} %>
+  <%= render :partial => "/shared/head" %>
   <body>
     <%= site_bar -%>
     <%= render :partial => "/shared/ie6check" if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
