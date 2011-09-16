@@ -40,6 +40,8 @@ namespace :customs do
     %w(alx avatars binary_hero domiduino fildefeu lionel pg pressbook sack tetalab wikileaks).each do  |images|
       run "ln -nfs #{shared_path}/images/#{images} #{release_path}/public/images/#{images}"
     end
+    run "ln -nfs #{shared_path}/media #{release_path}/public/media"
+    run "ln -nfs #{shared_path}/system #{release_path}/public/system"
   end
 end
 
