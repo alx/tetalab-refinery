@@ -2470,3 +2470,59 @@ Migrating to AddCaptionToImagePages (20110407154130)
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
   [1m[36mRefinerySetting Load (0.5ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /Volumes/data/dev/tetalab/refinery/config/environment.rb:5)
+  [1m[36mSQL (8.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (1.4ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.1ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'approximate_ascii' AND "refinery_settings"."scoping" = 'blog' LIMIT 1[0m
+  [1m[35mAREL (57.1ms)[0m  INSERT INTO "refinery_settings" ("updated_at", "callback_proc_as_string", "name", "destroyable", "restricted", "value", "form_value_type", "scoping", "created_at") VALUES ('2011-09-16 21:40:07.598914', NULL, 'approximate_ascii', 't', 'f', '--- "false"
+', 'text_area', 'blog', '2011-09-16 21:40:07.598914')
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.6ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.2ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'strip_non_ascii' AND "refinery_settings"."scoping" = 'blog' LIMIT 1
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "refinery_settings" ("updated_at", "callback_proc_as_string", "name", "destroyable", "restricted", "value", "form_value_type", "scoping", "created_at") VALUES ('2011-09-16 21:40:07.795295', NULL, 'strip_non_ascii', 't', 'f', '--- "false"
+', 'text_area', 'blog', '2011-09-16 21:40:07.795295')[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.4ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
