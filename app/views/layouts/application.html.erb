@@ -25,7 +25,47 @@
     </div>
     <div id='primary'>
       <div class='inside clearfix'>
-        <%= yield %>
+        <section id='body_content_left'><div class='inner'>
+          <% @blog_posts = BlogPost.live.includes(:comments, :categories).all
+          if @blog_posts.any? %>
+          <section id="blog_posts">
+            <%= render :partial => "/blog/shared/post", :collection => @blog_posts %>
+            <%= will_paginate @blog_posts %>
+          </section>
+          <% else %>
+          <p><%= t('.no_blog_articles_yet') %></p>
+          <% end %>
+        </div></section>
+<section id='body_content_right'><div class='inner'><p>Le Tetalab est un hackerspace toulousain créé en juin 2009, avec un cadre décontracté pour des projets software/hardware.</p>
+                <p>
+                    Par exemple, certains projets du moment:
+                </p>
+                
+                <p>
+                    <strong>Arduino</strong>
+<br />plateforme basée sur une interface entrée/sortie simple et sur un environnement de développement utilisant la technique du Processing/Wiring. Arduino peut être utilisé pour construire des objets interactifs indépendants, ou bien peut être connecté à un ordinateur pour communiquer avec ses logiciels
+                </p>
+                <p>
+                    <strong>Table Tangible</strong>
+<br />support interactif rétro-éclairée permettant à une ou plusieurs personnes de manipuler des sons et/ou de la vidéo. Support permettant d'expérimenter autour de ressources multimédia grâce au touché sur une surface et à des manipulations de volumes réactifs.
+                </p>
+                <p>
+                    <strong>OpenCV</strong>
+<br />une bibliothèque graphique libre, développée à la base par Intel, spécialisée dans le traitement d'image temps réel
+                </p>
+                <p>
+                    <a href="/pressbook.html">Plus de tetalab...</a>
+            </p>
+
+<h3>Adhésions</h3>
+
+<p>Chaque membre du Tetalab verse une cotisation de 5€ à 15€ par mois. Ces fonds servent aux divers frais: locations de serveurs, accessoires et outils pour la mise en forme des projets.</p>
+
+<p>La différence entre les cotisations à 5€ et celles à 15€ n'est pour le moment que symbolique, une faible participation permettant de se sentir impliqué dans le projet. Historiquement, le Tetalab a une cotisation à 15€ depuis le 1er juillet 2009.</p></div></section></section>
+
+
+      </div>
+        
       </div>
     </div>
     <%= render :partial => "/shared/javascripts" %>
