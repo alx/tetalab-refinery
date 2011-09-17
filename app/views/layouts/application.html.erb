@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<%= render :partial => "/shared/html_tag" %>
-  <% site_bar = render(:partial => "/shared/site_bar", :locals => {:head => true}) -%>
   <%= render :partial => "/shared/head" %>
   <body>
     <%= site_bar -%>
@@ -31,3 +29,60 @@
     <%= render :partial => "/shared/javascripts" %>
   </body>
 </html>
+
+
+<!DOCTYPE html>
+<%= render :partial => "/shared/html_tag" %>
+  <% site_bar = render(:partial => "/shared/site_bar", :locals => {:head => true}) -%>
+  
+  <head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Tetalab" />
+  <meta name="description" content="Hello – We're Tetalab - Hackerspace Toulouse" />
+  <title>Tetalab</title>
+
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/blog.css" />
+  <link rel="stylesheet" href="/css/monokai.css" />
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css' />
+  <link rel="shortcut icon" href="http://tetalab.org/images/favicon.ico" />
+  </head>
+  <body>
+
+    <nav>
+      <a href="/"><img class="me" src="/images/tetalab.png" alt="mug" /></a>
+    
+    <h2>Hello – We're Tetalab</h2>
+    <h3>We write <a href="https://git.tetalab.org">code</a>, we <a href="/">blog</a>, we have a <a href="http://lists.tetalab.org/listinfo/tetalab">mailing list</a>, we <a href="http://twitter.com/tetalab">tweet</a>, we <a href="http://www.vimeo.com/groups/tetalab/videos">record videos</a>, we have a <a href="http://tetalab.org/pressbook">PressBook</a> and <a href="http://wemakeporn.tetalab.org">we make porn</a>.</h3>
+    <h2>About Tetalab</h2>
+    <h3>Le Tetalab est un hackerspace toulousain. Nous nous réunissons tous les mercredi soir à partir de 21h à <a href="mixart-myrys.org">Mixart Myrys</a>, 12 rue Ferdinand Lasalle.</h3>
+    <div class="footer">
+      <a href="mailto:contact@tetalab.org" class="email"></a>
+    </div>
+  </nav>
+  
+  <section>
+    <h1>Blog Posts</h1>
+
+
+
+  <a href="/2011/09/17/zzuy-a-lesson-in-perseverance.html" class="post">ZZüy – A Lesson In Perseverance</a>
+  <time datetime="2011-09-17T00:00:00-07:00">September 17, 2011</time>
+    
+
+
+  <a href="/2011/08/31/do.html" class="post">Do</a>
+  <time datetime="2011-08-31T00:00:00-07:00">August 31, 2011</time>
+    
+
+
+  <a href="/2011/08/23/you-know-what-they-say-about-assumptions.html" class="post">You Know What They Say About Assumptions</a>
+  <time datetime="2011-08-23T00:00:00-07:00">August 23, 2011</time>
+    
+   
+  </section>
+  
+</body>
+</html>
+
