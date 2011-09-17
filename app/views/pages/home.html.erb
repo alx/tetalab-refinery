@@ -1,4 +1,4 @@
-<%= render :partial => "/shared/content_page" %>
+<section id="body_content">
 <section id="body_content_left">
   <div class="inner">
     <article id="blog_post">
@@ -31,6 +31,7 @@
 </section>
 <section id="body_content_right">
   <div class="inner">
-    <%= @page.content_for(:side_body) %>
+    <% @page.content_for(:side_body) %>
   </div>
-</section>
+  </section>
+  </section>
