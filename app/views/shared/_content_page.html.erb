@@ -50,7 +50,7 @@
       if section[:title]
         section[:html] = "<h1 id='#{dom_id}'>#{section[:html]}</h1>".html_safe
       else
-        section[:html] = "#{section[:html]}".html_safe
+        section[:html] = section[:html].html_safe
       end
     else
       css << "no_#{dom_id}"
@@ -58,5 +58,4 @@
   end
 -%>
 <%= raw sections.map{|section| section[:html]}.join("\n") -%>
-<%= render :partial => '/refinery/draft_page_message' unless @page.nil? or @page.live? -%>
-
+<%= render :partial => '/shared/draft_page_message' unless @page.nil? or @page.live? -%>
