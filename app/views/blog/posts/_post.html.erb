@@ -1,0 +1,19 @@
+<% flash.each do |key, value| %>
+ <div id='flash' class="flash flash_<%= key %>">
+   <%= value %>
+ </div>
+<% end %>
+<article id="blog_post">
+    <h1><%= @blog_post.title %></h1>
+    <p class='meta'>
+      <%= t('blog.shared.posts.created_at', :when => l(@blog_post.published_at.to_date, :format => :short)) %>
+       - <%= "#{t('blog.posts.show.by')} #{@blog_post.author.username}" if @blog_post.author.present? %>
+    </p>
+  <%= @blog_post.body.html_safe %>
+
+  <% if BlogPost::ShareThis.enabled? %>
+    <span class="st_sharethis" displayText="ShareThis"></span>
+  <% end %>
+</article>
+<%= render :partial => '/shared/draft_page_message' unless @blog_post.nil? or @blog_post.live? -%>
+<%= render 'nav' if next_or_previous?(@blog_post) %>
